@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3050D18219C5FD300A48170 /* libFTPKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3050D12219C5E8000A48170 /* libFTPKit.a */; };
+		A3050D24219C6FAB00A48170 /* tools.c in Sources */ = {isa = PBXBuildFile; fileRef = A3050D23219C6FAB00A48170 /* tools.c */; };
+		A3431237219C578B006B76C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3431236219C578B006B76C4 /* AppDelegate.swift */; };
+		A3431239219C578B006B76C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3431238219C578B006B76C4 /* ViewController.swift */; };
+		A343123C219C578B006B76C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A343123A219C578B006B76C4 /* Main.storyboard */; };
+		A343123E219C578D006B76C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A343123D219C578D006B76C4 /* Assets.xcassets */; };
+		A3431241219C578D006B76C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A343123F219C578D006B76C4 /* LaunchScreen.storyboard */; };
+		A343124C219C578D006B76C4 /* iOSFTPPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A343124B219C578D006B76C4 /* iOSFTPPlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3050D11219C5E8000A48170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3050D0C219C5E8000A48170 /* FTPKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F27BA1CE1802FE7E00584A9E;
+			remoteInfo = FTPKit;
+		};
+		A3050D13219C5E8000A48170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3050D0C219C5E8000A48170 /* FTPKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 07F23C4818CA4C43002BDF93;
+			remoteInfo = "FTPKit Tests";
+		};
+		A3050D15219C5E8900A48170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3050D0C219C5E8000A48170 /* FTPKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F27BA1CD1802FE7E00584A9E;
+			remoteInfo = FTPKit;
+		};
+		A3431248219C578D006B76C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A343122B219C578B006B76C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3431232219C578B006B76C4;
+			remoteInfo = iOSFTPPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3050D0C219C5E8000A48170 /* FTPKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FTPKit.xcodeproj; path = "../materials/FTPKit-master/FTPKit.xcodeproj"; sourceTree = "<group>"; };
+		A3050D19219C643600A48170 /* iOSFTPPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSFTPPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
+		A3050D22219C6FAB00A48170 /* tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tools.h; sourceTree = "<group>"; };
+		A3050D23219C6FAB00A48170 /* tools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tools.c; sourceTree = "<group>"; };
+		A3431233219C578B006B76C4 /* iOSFTPPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSFTPPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3431236219C578B006B76C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3431238219C578B006B76C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A343123B219C578B006B76C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A343123D219C578D006B76C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3431240219C578D006B76C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3431242219C578D006B76C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3431247219C578D006B76C4 /* iOSFTPPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSFTPPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A343124B219C578D006B76C4 /* iOSFTPPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSFTPPlayerUITests.swift; sourceTree = "<group>"; };
+		A343124D219C578D006B76C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3431230219C578B006B76C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3050D18219C5FD300A48170 /* libFTPKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3431244219C578D006B76C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3050D0D219C5E8000A48170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3050D12219C5E8000A48170 /* libFTPKit.a */,
+				A3050D14219C5E8000A48170 /* FTPKit Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3050D17219C5FD300A48170 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3050D1D219C6F1700A48170 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				A3050D23219C6FAB00A48170 /* tools.c */,
+				A3050D22219C6FAB00A48170 /* tools.h */,
+				A3050D19219C643600A48170 /* iOSFTPPlayer-Bridging-Header.h */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		A3050D1E219C6F2500A48170 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A3431236219C578B006B76C4 /* AppDelegate.swift */,
+				A3431238219C578B006B76C4 /* ViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A343122A219C578B006B76C4 = {
+			isa = PBXGroup;
+			children = (
+				A3050D0C219C5E8000A48170 /* FTPKit.xcodeproj */,
+				A3431235219C578B006B76C4 /* iOSFTPPlayer */,
+				A343124A219C578D006B76C4 /* iOSFTPPlayerUITests */,
+				A3431234219C578B006B76C4 /* Products */,
+				A3050D17219C5FD300A48170 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3431234219C578B006B76C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3431233219C578B006B76C4 /* iOSFTPPlayer.app */,
+				A3431247219C578D006B76C4 /* iOSFTPPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3431235219C578B006B76C4 /* iOSFTPPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A3050D1E219C6F2500A48170 /* Classes */,
+				A3050D1D219C6F1700A48170 /* C */,
+				A343123A219C578B006B76C4 /* Main.storyboard */,
+				A343123D219C578D006B76C4 /* Assets.xcassets */,
+				A343123F219C578D006B76C4 /* LaunchScreen.storyboard */,
+				A3431242219C578D006B76C4 /* Info.plist */,
+			);
+			path = iOSFTPPlayer;
+			sourceTree = "<group>";
+		};
+		A343124A219C578D006B76C4 /* iOSFTPPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A343124B219C578D006B76C4 /* iOSFTPPlayerUITests.swift */,
+				A343124D219C578D006B76C4 /* Info.plist */,
+			);
+			path = iOSFTPPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3431232219C578B006B76C4 /* iOSFTPPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3431250219C578D006B76C4 /* Build configuration list for PBXNativeTarget "iOSFTPPlayer" */;
+			buildPhases = (
+				A343122F219C578B006B76C4 /* Sources */,
+				A3431230219C578B006B76C4 /* Frameworks */,
+				A3431231219C578B006B76C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3050D16219C5E8900A48170 /* PBXTargetDependency */,
+			);
+			name = iOSFTPPlayer;
+			productName = iOSFTPPlayer;
+			productReference = A3431233219C578B006B76C4 /* iOSFTPPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3431246219C578D006B76C4 /* iOSFTPPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3431253219C578D006B76C4 /* Build configuration list for PBXNativeTarget "iOSFTPPlayerUITests" */;
+			buildPhases = (
+				A3431243219C578D006B76C4 /* Sources */,
+				A3431244219C578D006B76C4 /* Frameworks */,
+				A3431245219C578D006B76C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3431249219C578D006B76C4 /* PBXTargetDependency */,
+			);
+			name = iOSFTPPlayerUITests;
+			productName = iOSFTPPlayerUITests;
+			productReference = A3431247219C578D006B76C4 /* iOSFTPPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A343122B219C578B006B76C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Profi-Soft";
+				TargetAttributes = {
+					A3431232219C578B006B76C4 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					A3431246219C578D006B76C4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A3431232219C578B006B76C4;
+					};
+				};
+			};
+			buildConfigurationList = A343122E219C578B006B76C4 /* Build configuration list for PBXProject "iOSFTPPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A343122A219C578B006B76C4;
+			productRefGroup = A3431234219C578B006B76C4 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A3050D0D219C5E8000A48170 /* Products */;
+					ProjectRef = A3050D0C219C5E8000A48170 /* FTPKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A3431232219C578B006B76C4 /* iOSFTPPlayer */,
+				A3431246219C578D006B76C4 /* iOSFTPPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A3050D12219C5E8000A48170 /* libFTPKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFTPKit.a;
+			remoteRef = A3050D11219C5E8000A48170 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A3050D14219C5E8000A48170 /* FTPKit Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "FTPKit Tests.xctest";
+			remoteRef = A3050D13219C5E8000A48170 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3431231219C578B006B76C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3431241219C578D006B76C4 /* LaunchScreen.storyboard in Resources */,
+				A343123E219C578D006B76C4 /* Assets.xcassets in Resources */,
+				A343123C219C578B006B76C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3431245219C578D006B76C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A343122F219C578B006B76C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3050D24219C6FAB00A48170 /* tools.c in Sources */,
+				A3431239219C578B006B76C4 /* ViewController.swift in Sources */,
+				A3431237219C578B006B76C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3431243219C578D006B76C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A343124C219C578D006B76C4 /* iOSFTPPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3050D16219C5E8900A48170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FTPKit;
+			targetProxy = A3050D15219C5E8900A48170 /* PBXContainerItemProxy */;
+		};
+		A3431249219C578D006B76C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3431232219C578B006B76C4 /* iOSFTPPlayer */;
+			targetProxy = A3431248219C578D006B76C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A343123A219C578B006B76C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A343123B219C578B006B76C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A343123F219C578D006B76C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3431240219C578D006B76C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A343124E219C578D006B76C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A343124F219C578D006B76C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3431251219C578D006B76C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3944GUFEE;
+				HEADER_SEARCH_PATHS = ../../materials/;
+				INFOPLIST_FILE = iOSFTPPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = profisoft.com.iOSFTPPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSFTPPlayer/C/iOSFTPPlayer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3431252219C578D006B76C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3944GUFEE;
+				HEADER_SEARCH_PATHS = ../../materials/;
+				INFOPLIST_FILE = iOSFTPPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = profisoft.com.iOSFTPPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSFTPPlayer/C/iOSFTPPlayer-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3431254219C578D006B76C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3944GUFEE;
+				INFOPLIST_FILE = iOSFTPPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = profisoft.com.iOSFTPPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSFTPPlayer;
+			};
+			name = Debug;
+		};
+		A3431255219C578D006B76C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3944GUFEE;
+				INFOPLIST_FILE = iOSFTPPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = profisoft.com.iOSFTPPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSFTPPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A343122E219C578B006B76C4 /* Build configuration list for PBXProject "iOSFTPPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A343124E219C578D006B76C4 /* Debug */,
+				A343124F219C578D006B76C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3431250219C578D006B76C4 /* Build configuration list for PBXNativeTarget "iOSFTPPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3431251219C578D006B76C4 /* Debug */,
+				A3431252219C578D006B76C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3431253219C578D006B76C4 /* Build configuration list for PBXNativeTarget "iOSFTPPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3431254219C578D006B76C4 /* Debug */,
+				A3431255219C578D006B76C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A343122B219C578B006B76C4 /* Project object */;
+}

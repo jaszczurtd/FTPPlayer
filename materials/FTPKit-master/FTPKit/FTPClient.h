@@ -484,4 +484,7 @@
  */
 - (NSString *)printWorkingDirectory;
 
+
+- (NSString *)ftpLibVersion;
+
 @end

@@ -618,11 +618,11 @@
 {
     dispatch_async(_queue, ^{
         NSDate *date = [self lastModifiedAtPath:remotePath];
-        if (! _lastError && success) {
+        if (! self->_lastError && success) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 success(date);
             });
-        } else if (_lastError && failure) {
+        } else if (self->_lastError && failure) {
             [self returnFailure:failure];
         }
     });
@@ -677,11 +677,11 @@
 {
     dispatch_async(_queue, ^{
         BOOL exists = [self directoryExistsAtPath:remotePath];
-        if (! _lastError && success) {
+        if (! self->_lastError && success) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 success(exists);
             });
-        } else if (_lastError && failure) {
+        } else if (self->_lastError && failure) {
             [self returnFailure:failure];
         }
     });
@@ -725,6 +725,10 @@
     dispatch_async(dispatch_get_main_queue(), ^{
         failure(error);
     });
+}
+
+- (NSString *)ftpLibVersion {
+    return [NSString stringWithFormat:@"%s", FTPversion];
 }
 
 @end

@@ -70,6 +70,8 @@ typedef uint32_t fsz_t;
 
 typedef struct NetBuf netbuf;
 typedef int (*FtpCallback)(netbuf *nControl, fsz_t xfered, void *arg);
+    
+extern char *FTPversion;
 
 typedef struct FtpCallbackOptions {
     FtpCallback cbFunc;         /* function to call */

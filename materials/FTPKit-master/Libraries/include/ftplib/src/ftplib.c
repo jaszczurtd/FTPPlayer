@@ -97,7 +97,7 @@ struct NetBuf {
     char response[RESPONSE_BUFSIZ];
 };
 
-static char *version =
+char *FTPversion =
     "ftplib Release 4.0 07-Jun-2013, copyright 1996-2003, 2013 Thomas Pfau";
 
 GLOBALDEF int ftplib_debug = 3;
