@@ -28,6 +28,7 @@ docu/
 generated/
 xcuserdata/
 xcshareddata/
+xcschemes/
 
 ##pods
 Pods/
