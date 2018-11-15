@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A80710AF6E615ED9D736F6E /* Pods_iOSFTPPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D26555ADD84188B8EAB365 /* Pods_iOSFTPPlayer.framework */; };
 		A3050D18219C5FD300A48170 /* libFTPKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3050D12219C5E8000A48170 /* libFTPKit.a */; };
 		A3050D24219C6FAB00A48170 /* tools.c in Sources */ = {isa = PBXBuildFile; fileRef = A3050D23219C6FAB00A48170 /* tools.c */; };
+		A3050D2F219D8B5900A48170 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3050D2E219D8B5900A48170 /* KeychainHelper.swift */; };
+		A3050D3B219D8D9700A48170 /* StringFromClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3050D31219D8D9600A48170 /* StringFromClass.swift */; };
+		A3050D3C219D8D9700A48170 /* DispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3050D32219D8D9600A48170 /* DispatchQueue.swift */; };
+		A3050D3D219D8D9700A48170 /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3050D33219D8D9600A48170 /* Locale.swift */; };
+		A3050D3E219D8D9700A48170 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3050D34219D8D9600A48170 /* UITableView.swift */; };
+		A3050D3F219D8D9700A48170 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3050D35219D8D9600A48170 /* UIView.swift */; };
+		A3050D40219D8D9700A48170 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3050D36219D8D9600A48170 /* Bool.swift */; };
+		A3050D41219D8D9700A48170 /* UInt8.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3050D37219D8D9600A48170 /* UInt8.swift */; };
+		A3050D42219D8D9700A48170 /* UINibRegisterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3050D38219D8D9700A48170 /* UINibRegisterHelper.swift */; };
+		A3050D43219D8D9700A48170 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3050D39219D8D9700A48170 /* String.swift */; };
+		A3050D44219D8D9700A48170 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3050D3A219D8D9700A48170 /* UIViewController.swift */; };
 		A3431237219C578B006B76C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3431236219C578B006B76C4 /* AppDelegate.swift */; };
 		A3431239219C578B006B76C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3431238219C578B006B76C4 /* ViewController.swift */; };
 		A343123C219C578B006B76C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A343123A219C578B006B76C4 /* Main.storyboard */; };
@@ -49,10 +61,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		365EE3842ADA7923B9D56ACD /* Pods-iOSFTPPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSFTPPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSFTPPlayer/Pods-iOSFTPPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		59D26555ADD84188B8EAB365 /* Pods_iOSFTPPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSFTPPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3050D0C219C5E8000A48170 /* FTPKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FTPKit.xcodeproj; path = "../materials/FTPKit-master/FTPKit.xcodeproj"; sourceTree = "<group>"; };
 		A3050D19219C643600A48170 /* iOSFTPPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSFTPPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
 		A3050D22219C6FAB00A48170 /* tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tools.h; sourceTree = "<group>"; };
 		A3050D23219C6FAB00A48170 /* tools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tools.c; sourceTree = "<group>"; };
+		A3050D2E219D8B5900A48170 /* KeychainHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		A3050D31219D8D9600A48170 /* StringFromClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringFromClass.swift; sourceTree = "<group>"; };
+		A3050D32219D8D9600A48170 /* DispatchQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueue.swift; sourceTree = "<group>"; };
+		A3050D33219D8D9600A48170 /* Locale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locale.swift; sourceTree = "<group>"; };
+		A3050D34219D8D9600A48170 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		A3050D35219D8D9600A48170 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		A3050D36219D8D9600A48170 /* Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
+		A3050D37219D8D9600A48170 /* UInt8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UInt8.swift; sourceTree = "<group>"; };
+		A3050D38219D8D9700A48170 /* UINibRegisterHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINibRegisterHelper.swift; sourceTree = "<group>"; };
+		A3050D39219D8D9700A48170 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		A3050D3A219D8D9700A48170 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		A3431233219C578B006B76C4 /* iOSFTPPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSFTPPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3431236219C578B006B76C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3431238219C578B006B76C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +88,7 @@
 		A3431247219C578D006B76C4 /* iOSFTPPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSFTPPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A343124B219C578D006B76C4 /* iOSFTPPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSFTPPlayerUITests.swift; sourceTree = "<group>"; };
 		A343124D219C578D006B76C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1A439B5F2B1E4BDAACBBC16 /* Pods-iOSFTPPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSFTPPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSFTPPlayer/Pods-iOSFTPPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +97,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3050D18219C5FD300A48170 /* libFTPKit.a in Frameworks */,
+				4A80710AF6E615ED9D736F6E /* Pods_iOSFTPPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +111,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B504105E3DEA13D6EAB0257 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				365EE3842ADA7923B9D56ACD /* Pods-iOSFTPPlayer.debug.xcconfig */,
+				F1A439B5F2B1E4BDAACBBC16 /* Pods-iOSFTPPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A3050D0D219C5E8000A48170 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +132,7 @@
 		A3050D17219C5FD300A48170 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				59D26555ADD84188B8EAB365 /* Pods_iOSFTPPlayer.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,10 +150,37 @@
 		A3050D1E219C6F2500A48170 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A3050D30219D8C7100A48170 /* Extension */,
+				A3050D2C219D8B0400A48170 /* Helpers */,
 				A3431236219C578B006B76C4 /* AppDelegate.swift */,
 				A3431238219C578B006B76C4 /* ViewController.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		A3050D2C219D8B0400A48170 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A3050D2E219D8B5900A48170 /* KeychainHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A3050D30219D8C7100A48170 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A3050D36219D8D9600A48170 /* Bool.swift */,
+				A3050D32219D8D9600A48170 /* DispatchQueue.swift */,
+				A3050D33219D8D9600A48170 /* Locale.swift */,
+				A3050D39219D8D9700A48170 /* String.swift */,
+				A3050D31219D8D9600A48170 /* StringFromClass.swift */,
+				A3050D38219D8D9700A48170 /* UINibRegisterHelper.swift */,
+				A3050D37219D8D9600A48170 /* UInt8.swift */,
+				A3050D34219D8D9600A48170 /* UITableView.swift */,
+				A3050D35219D8D9600A48170 /* UIView.swift */,
+				A3050D3A219D8D9700A48170 /* UIViewController.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		A343122A219C578B006B76C4 = {
@@ -127,6 +191,7 @@
 				A343124A219C578D006B76C4 /* iOSFTPPlayerUITests */,
 				A3431234219C578B006B76C4 /* Products */,
 				A3050D17219C5FD300A48170 /* Frameworks */,
+				6B504105E3DEA13D6EAB0257 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3431250219C578D006B76C4 /* Build configuration list for PBXNativeTarget "iOSFTPPlayer" */;
 			buildPhases = (
+				68C1A3F07D21C32CDC6E56BF /* [CP] Check Pods Manifest.lock */,
 				A343122F219C578B006B76C4 /* Sources */,
 				A3431230219C578B006B76C4 /* Frameworks */,
 				A3431231219C578B006B76C4 /* Resources */,
+				17381AEB514AA3B4FFDC1530 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -287,14 +354,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17381AEB514AA3B4FFDC1530 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOSFTPPlayer/Pods-iOSFTPPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSFTPPlayer/Pods-iOSFTPPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68C1A3F07D21C32CDC6E56BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSFTPPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A343122F219C578B006B76C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3050D44219D8D9700A48170 /* UIViewController.swift in Sources */,
 				A3050D24219C6FAB00A48170 /* tools.c in Sources */,
+				A3050D43219D8D9700A48170 /* String.swift in Sources */,
+				A3050D3D219D8D9700A48170 /* Locale.swift in Sources */,
+				A3050D3B219D8D9700A48170 /* StringFromClass.swift in Sources */,
+				A3050D40219D8D9700A48170 /* Bool.swift in Sources */,
+				A3050D42219D8D9700A48170 /* UINibRegisterHelper.swift in Sources */,
 				A3431239219C578B006B76C4 /* ViewController.swift in Sources */,
 				A3431237219C578B006B76C4 /* AppDelegate.swift in Sources */,
+				A3050D3E219D8D9700A48170 /* UITableView.swift in Sources */,
+				A3050D2F219D8B5900A48170 /* KeychainHelper.swift in Sources */,
+				A3050D3F219D8D9700A48170 /* UIView.swift in Sources */,
+				A3050D3C219D8D9700A48170 /* DispatchQueue.swift in Sources */,
+				A3050D41219D8D9700A48170 /* UInt8.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +586,7 @@
 		};
 		A3431251219C578D006B76C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 365EE3842ADA7923B9D56ACD /* Pods-iOSFTPPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -482,6 +610,7 @@
 		};
 		A3431252219C578D006B76C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1A439B5F2B1E4BDAACBBC16 /* Pods-iOSFTPPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
