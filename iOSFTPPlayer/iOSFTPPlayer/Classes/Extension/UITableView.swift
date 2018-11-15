@@ -2,7 +2,6 @@
 //  UITableView.swift
 //  sipclient
 //
-//  Created by Mateusz Łudzeń on 22/09/2017.
 //
 
 import UIKit

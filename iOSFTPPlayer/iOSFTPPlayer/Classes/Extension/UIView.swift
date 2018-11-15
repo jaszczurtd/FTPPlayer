@@ -2,8 +2,6 @@
 //  UIView.swift
 //  sipclient
 //
-//  Created by Mateusz Łudzeń on 18/09/2017.
-//
 
 import UIKit
 
